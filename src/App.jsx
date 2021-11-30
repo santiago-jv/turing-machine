@@ -61,6 +61,8 @@ function App() {
 			top: document.body.scrollHeight,
 			behavior: 'smooth'
 		})
+		string2.current = " " + string2.current 
+		setString(string2.current)
 		setIsAnimating(true)
 		count = 0
 		await state_1()
@@ -81,34 +83,39 @@ function App() {
 				await animateElement(1)
 			}	
 			else if (string2.current[count] === 'a') await animateElement(2)	
+			else  await animateElement(3)
 			count++
 			await state_1()
 		}
 		else {
 			count--;
-			await animateElement(3)
+			await animateElement(4)
 			await state_2()
 		}
 	}
 
 	const state_2 = async () => {
+
 		count--;
-		await animateElement(4)
+		await animateElement(5)
 		if(count >= 0) {
 	 		animateCurrentChart()
 			
-			if(string2.current[count] === 'a') await animateElement(5)
+			if(string2.current[count] === 'a') await animateElement(6)
+			else await animateElement(7)
 			await state_2()
 		}
 		else{
-			await animateElement(6)
+			count = 1
+			animateCurrentChart()
+			await animateElement(8)
 			await state_3()
 		}
 
 	}
 
 	const state_3 = async () => {
-		await animateElement(7)
+		await animateElement(9)
 	}
 
 	const handleInputChange = (event) => {

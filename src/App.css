@@ -127,22 +127,31 @@ button:hover{
     top:50px;
     left: 20px;
 }
+#arrow3_return_q1{
+    top:-30px;
+    left: 100px;
+}
 #arrow_q1_to_q2{
-    left: calc(var(--left) * 3);
+    left: calc(var(--left) * 2.5);
 }
 #q2{
-    left: calc(var(--left) * 7);
+    left: calc(var(--left) * 5.5);
 }
 #arrow_return_q2{
     top:-20px;
-    left: calc(var(--left) * 6 + 10px);
+    left: calc(var(--left) * 4.5 + 20px);
+
+}
+#arrow2_return_q2{
+    top:55px;
+    left: calc(var(--left) * 4.5 + 25px);
 
 }
 #arrow_q2_to_q3{
-    left: calc(var(--left) * 9);
+    left: calc(var(--left) * 7);
 }
 #q3{
-    left: calc(var(--left) * 13 - 30px);
+    left: calc(var(--left) * 10.3 - 30px);
 }
 
 
