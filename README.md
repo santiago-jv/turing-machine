@@ -1,4 +1,4 @@
-# Turing Machin simulator
+# Turing Machine simulator
 
 Members:
 - Santiago Olayo
