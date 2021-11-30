@@ -1,0 +1,44 @@
+{
+	"spanish":{
+		"title":"Máquina de Turing",
+		"textButton":"Verificar",
+		"labelString":"Escribe algún texto",
+		"labelSpeed":"Escoge la velocidad de animación",
+		"currentSpeed":"Velocidad actual:",
+		"error":"El texto de entrada solo acepta la siguiente expresión regular:^[a-b\\s]*$",
+		"languages":{
+			"spanish":"Español",
+			"english":"Inglés",
+			"french":"Francés"
+		}
+	},
+
+	"english":{
+		"title":"Turing machine",
+		"textButton":"Verify",
+		"labelString":"Write some text",
+		"labelSpeed":"Choose the animation speed",
+		"currentSpeed":"Current speed:",
+		"error":"The input text only accepts the following regular expression:^[a-b\\s]*$",
+		"languages":{
+			"spanish":"Spanish",
+			"english":"English",
+			"french":"French"
+		}
+		
+	},
+	"french":{
+		"title":"Machine de Turing",
+		"textButton":"Vérifier",
+		"labelString":"Ecrire du texte",
+		"labelSpeed":"Choisissez la vitesse d'animation",
+		"currentSpeed":"Vitesse actuelle:",
+		"error":"Le texte saisi n'accepte que l'expression régulière suivante:^[a-b\\s]*$",
+		"languages":{
+			"spanish":"Espagnol",
+			"english":"Anglais",
+			"french":"Français"
+		}
+		
+	}
+}
