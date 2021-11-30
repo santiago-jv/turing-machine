@@ -80,7 +80,7 @@ function App() {
 				setString(newString)
 				await animateElement(1)
 			}	
-			else if (string2.current[count] === 'a') animateElement(2)	
+			else if (string2.current[count] === 'a') await animateElement(2)	
 			count++
 			await state_1()
 		}
@@ -96,7 +96,8 @@ function App() {
 		await animateElement(4)
 		if(count >= 0) {
 	 		animateCurrentChart()
-			await animateElement(5)
+			
+			if(string2.current[count] === 'a') await animateElement(5)
 			await state_2()
 		}
 		else{
